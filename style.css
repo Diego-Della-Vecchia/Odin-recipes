@@ -38,17 +38,20 @@ p, li {
 
 .centered-items {
     display: block;
-    margin: auto;
+    margin: 0px auto;
     margin-top: 30px;
     
     
 }
 
-ul {
-    display: block; 
+
+#centered-list {
     text-align: center;
-    
-    
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
 }
 
 .centered-text {
